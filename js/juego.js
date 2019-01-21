@@ -3,7 +3,6 @@ function Fecha() {
      var time = new Date().getHours();
      if (time < 10) {
        greeting = "Buenos dias";
-       body= document.getElementById('body');
        document.bgColor = 'lightblue';
        document.getElementById('myImage').src='img/dias.jpg'
      } else if (time < 20) {
@@ -74,7 +73,7 @@ if (Computadora < 0.16) {
     alert("Prueba preguntando de nuevo");
 }else if(Computadora <=.80){
     alert("Algun dia");
-}else if(Computadora <=1){
+}else if(Computadora <1){
     alert("Muy pronto");
 }
 }
