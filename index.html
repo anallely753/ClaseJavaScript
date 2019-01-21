@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JS</title>
+</head>
+<body>
+	<h2>What can JS do?</h2>
+	<p id="demo">JS can change HTML content</p>
+	<button type="button" onclick='document.getElementById("demo").innerHTML="Hello from JS"'>Click me!</button>
+
+	<p>JavaScript can change HTML attribute values.</p>
+
+	<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+	<button onclick="document.getElementById('myImage').src='img/pic_bulbon.gif'">Turn on the light</button>
+
+	<img id="myImage" src="img/pic_bulboff.gif" style="width:100px">
+
+	<button onclick="document.getElementById('myImage').src='img/pic_bulboff.gif'">Turn off the light</button>
+
+	<p id="demo1">JavaScript can change the style of an HTML element.</p>
+
+	<button type="button" onclick="document.getElementById('demo1').style.fontSize='35px'">Click Me!</button>
+
+	<p id="demo2">JavaScript can hide HTML elements.</p>
+
+	<button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me!</button>
+
+	<p>JavaScript can show hidden HTML elements.</p>
+
+	<p id="demo" style="display:none">Hello JavaScript!</p>
+
+	<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+
+	<p id="demo3">A Paragraph.</p>
+
+	<button type="button" onclick="myFunction()">Try it</button>
+
+	<!--<script>
+		window.alert(5 + 6);
+	</script>-->
+
+
+
+	<p>Click the button to get a time-based greeting:</p>
+	<p id="fecha"></p>
+
+	<button onclick="myDate()">Try it</button>
+
+	<p id="demo5"></p>
+	<button onclick="myDay()">Try it</button>
+	
+	<p id="demo6"></p>
+	<button onclick="myCar()">Try it</button>
+
+	
+
+
+
+</body>
+
+<script src="js/app.js"></script>
+
+</html>

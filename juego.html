@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Adivina el numerp</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body" onload="Fecha()">
+
+	<h1 id="fecha" onload="Fecha()"></h1>	
+	<img id="myImage" alt="imagen">
+
+
+	<h2>Ingresa un numero del 1 al 10, tienes 5 intentos. :) Buena suerte!</h2>
+	<form onsubmit="return adivinar()">
+	<br>	
+	<input type="text" name="numero" id="numero">
+	<input type="submit" value="Enviar" id="btnEnviar">
+	<p id="respuestaCompu"></p>
+	</form>
+
+
+<div id="respuestas"></div>
+</body>
+<script src="js/juego.js"></script>
+</html>
